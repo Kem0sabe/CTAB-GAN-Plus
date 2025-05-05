@@ -4,8 +4,8 @@ Generative model training algorithm based on the CTABGANSynthesiser
 """
 import pandas as pd
 import time
-from model.pipeline.data_preparation2 import DataPrep
-from model.synthesizer.ctabgan_synthesizer2 import CTABGANSynthesizer
+from model.pipeline.data_preparation import DataPrep
+from model.synthesizer.ctabgan_synthesizer import CTABGANSynthesizer
 
 import warnings
 
